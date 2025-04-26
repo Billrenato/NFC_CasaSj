@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casa São José</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <br>
+
+     <header>
+     
+        <h1><img src="img/logo2.png" alt="Minha Loja" style="width: 250px; height: 180px;"></h1>
+        
+      </header>
+
+      <div class="info">
+        <button onclick="copyToClipboard('SenhaDoWiFi')">
+          <img src="img/wifi.png" style="width: 48px; height: 48px;">
+        </button>
+        <button onclick="copyToClipboard('pix@minhalojacom')">
+          <img src="img/pix.png" style="width: 45px; height: 45px;">
+        </button>
+        <a href="https://www.instagram.com/casasaojosepiracaia/" target="_blank">
+          <img src="img/insta.png" style="width: 45px; height: 45px;">
+        </a>
+        <a href="https://wa.me/5511933955862" target="_blank">
+          <img src="img/whatsapp.png" style="width: 36px; height: 36px;">
+        </a>
+      </div>
+      <a class="tag-bazar" href="https://chat.whatsapp.com/IuGE3PNWLb94JOv0345lcC" target="_blank">Bazar Casa São José</a>
+      <br>
+      <header>
+     
+        <h1><img src="img/logo.png" alt="Minha Loja" style="width: 250px; height: 180px;"></h1>
+        
+      </header>
+    
+   
+
+    <footer>
+      <p>© 2025 Casa São José</p>
+    </footer>
+  </div>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Copiado: " + text);
+      });
+    }
+  </script>
+</body>
+</html>
