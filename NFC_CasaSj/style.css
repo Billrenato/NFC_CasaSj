@@ -1,0 +1,118 @@
+*{
+  
+}
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: radial-gradient(#fd7bbc, #ffe6cc);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  button, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #49413300;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .tag-bazar {
+    display: block;
+    background: #ffffff80;
+    color: white;
+    padding: 1rem;
+    border-radius: 60px;
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+  }
+  
+  
+  button:hover,
+  a:hover {
+    background: #362e1e36;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+
+  .precos {
+    margin-top: 2rem;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .preco-item {
+    background-color: #49413346;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    color: rgb(252, 202, 173);
+    font-size: 30px;
+    
+  }
+  .preco-item h3 {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+    color: rgb(252, 202, 173);
+  }
+  
+  .preco-item p {
+    font-size: 1.2rem;
+    color: #666;
+    color: rgb(255, 105, 18);
+  }
