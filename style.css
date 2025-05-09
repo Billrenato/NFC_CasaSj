@@ -6,7 +6,8 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color:#fde1c3 ;
+    background-image: url(img/fundocasa.png);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
